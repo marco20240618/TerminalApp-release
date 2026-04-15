@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Terminal — Install</title>
+<style>
+  body { font-family: -apple-system, system-ui, sans-serif; max-width: 480px; margin: 3rem auto; padding: 0 1rem; text-align: center; color: #222; }
+  h1 { font-size: 2rem; margin-bottom: 0.25rem; }
+  .sub { color: #666; margin-bottom: 2rem; }
+  a.btn {
+    display: inline-block;
+    background: #007aff;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+  .version { margin-top: 1.5rem; font-size: 0.85rem; color: #888; }
+  .changelog { margin-top: 2rem; text-align: left; background: #f6f6f8; border-radius: 12px; padding: 1rem 1.25rem; }
+  .changelog h2 { font-size: 1rem; margin: 0 0 0.5rem; color: #333; }
+  .changelog ul { margin: 0; padding-left: 1.2rem; color: #444; font-size: 0.92rem; line-height: 1.55; }
+  .note { margin-top: 2rem; font-size: 0.9rem; color: #666; line-height: 1.5; }
+  code { background: #f0f0f0; padding: 2px 6px; border-radius: 4px; font-size: 0.85rem; }
+</style>
+</head>
+<body>
+  <h1>⌨️ Terminal</h1>
+  <p class="sub">iOS terminal — signed development build</p>
+  <a class="btn" href="itms-services://?action=download-manifest&url=https://marco20240618.github.io/TerminalApp-release/manifest.plist">Tap to install</a>
+  <p class="version">
+    Version <strong>1.0</strong> &nbsp;·&nbsp;
+    Build <code><a href="https://github.com/marco20240618/TerminalApp/commit/84765c6" style="color:inherit">84765c6</a></code> &nbsp;·&nbsp;
+    2026-04-15
+  </p>
+  <div class="changelog">
+    <h2>What’s in 1.0</h2>
+    <ul>
+      <li>xterm.js-based terminal with full-color output</li>
+      <li>Python 3.14 bundled — run scripts and interactive REPL</li>
+      <li>Vim pre-installed</li>
+      <li>SSH client (ssh, scp) via libssh2</li>
+      <li>Coreutils, curl, perl, tar, awk, mandoc included</li>
+      <li>git via lg2</li>
+    </ul>
+  </div>
+  <p class="note">Open this page in Safari on your iPhone. After installing, you may need to:<br>
+    <strong>Settings → General → VPN &amp; Device Management</strong> → trust the developer certificate.</p>
+</body>
+</html>
